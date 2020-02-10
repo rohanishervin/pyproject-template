@@ -3,3 +3,6 @@ isort
 yapf
 python-language-server
 pandas
+jupyter
+ipython
+pyqt5

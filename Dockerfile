@@ -1,5 +1,5 @@
-FROM ipython:latest
+FROM python:3.6
 
-COPY requirements.txt /opt/requirements.txt
+COPY requirements.txt /content/requirements.txt
 
-RUN pip install -r /opt/requirements.txt
+RUN pip install -r /content/requirements.txt
