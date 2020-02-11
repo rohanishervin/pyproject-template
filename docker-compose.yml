@@ -14,6 +14,8 @@ services:
     volumes:
       - ./:/content
       - /tmp:/tmp
+    ports:
+      - 8888:8888
     networks:
       - python-machinelearning-network
 networks:
